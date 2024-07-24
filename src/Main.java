@@ -165,7 +165,7 @@ public class Main {
         System.out.println("Enter product quantity:");
         int quantity = Integer.parseInt(scanner.nextLine());
         pm.updateProduct(id, name, price, quantity);
-        System.out.println("Product updated successfully.");
+        System.out.println("Product updated complete.");
         selectAction();
     }
 
